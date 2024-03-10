@@ -13,27 +13,26 @@ gsap.to("#nav",{
     }
 })
 gsap.to("#main",{
-    backgroundColor : "#fff",
+    backgroundColor : "rgba(0, 0, 0, 0.900)",
     duration: "0.5",
     scrollTrigger:{
         trigger:"#page2",
         scroller:"body",
-        markers:"true",
+        // markers:"true",
         start:"top, 80%",
         end:"top, 50%",
         scrub:2,
     }
 })
-
-gsap.to("#effect",{
-    color:"#000",
-    duration:0.5,
-    scrollTrigger:{
-        // markers:true,
-        start:"top -30%",
-        end:"top -80%",
-        scrub:2,
-    }
-})
+// gsap.to("#effect",{
+//     color:"#fff",
+//     duration:0.5,
+//     scrollTrigger:{
+//         // markers:true,
+//         start:"top -30%",
+//         end:"top -80%",
+//         scrub:2,
+//     }
+// })
 
 
