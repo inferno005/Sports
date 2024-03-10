@@ -13,17 +13,18 @@ gsap.to("#nav",{
     }
 })
 gsap.to("#main",{
-    backgroundColor: "#fff",
+    backgroundColor : "#fff",
     duration: "0.5",
     scrollTrigger:{
-        trigger:"#main",
+        trigger:"#page2",
         scroller:"body",
-        // markers:"true",
-        start:"top, -30%",
-        end:"top, -80",
+        markers:"true",
+        start:"top, 80%",
+        end:"top, 50%",
         scrub:2,
     }
 })
+
 gsap.to("#effect",{
     color:"#000",
     duration:0.5,
@@ -34,3 +35,5 @@ gsap.to("#effect",{
         scrub:2,
     }
 })
+
+

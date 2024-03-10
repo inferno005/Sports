@@ -12,6 +12,7 @@ html, body {
     width: 100%;
 
 }
+
 a{
     text-decoration: none;    
 }
@@ -168,4 +169,10 @@ a{
 }
 .card:hover{
     transform: scale(1.05);
+}
+/* page 3 */
+#page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
